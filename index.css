@@ -137,7 +137,7 @@ aside.sidebar {
   width: 25%;
 }
 
-aside.sidebar article {
+.sidebar-widget {
   border: 1px solid red;
 }
 
