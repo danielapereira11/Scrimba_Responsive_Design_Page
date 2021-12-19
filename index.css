@@ -66,7 +66,7 @@ nav a:focus {
   color: #717171;
 }
 
-.main-container {
+.container-main {
   border: 1px solid black;
   margin: 2em auto;
   display: flex;
@@ -74,22 +74,25 @@ nav a:focus {
   justify-content: space-between;
 }
 
-.main-container .main-col {
+main {
   border: 1px solid pink;
   display: flex;
   flex-direction: column;
   width: 75%;
 }
-.main-container .side-col {
-  border: 1px solid purple;
+
+main article {
+  border: 1px solid blue;
+}
+
+aside.sidebar {
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   width: 25%;
 }
-.main-container .main-col div {
-  border: 1px solid blue;
-}
-.main-container .side-col div {
+
+aside.sidebar article {
   border: 1px solid red;
 }
 
