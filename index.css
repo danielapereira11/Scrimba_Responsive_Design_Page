@@ -15,8 +15,59 @@ h1 {
   margin: 0;
 }
 
-h2 {
+.article-title {
   margin-top: 0;
+  color: #143774;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.widget-title {
+  color: #143774;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.225rem;
+}
+
+.widget-recent-post-title {
+  color: #143774;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+a.article-read-more {
+  color: #1792d2;
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 0.175rem;
+  text-transform: uppercase;
+}
+
+a.article-read-more:hover,
+a.article-read-more:focus {
+  text-decoration: underline;
+}
+
+a.article-previous-link {
+  color: #1792d2;
+  text-decoration: underline;
+}
+
+.article-body {
+  color: #707070;
+  font-size: 1.125rem;
+}
+
+.widget-body {
+  color: #143774;
+  font-size: 0.875rem;
+}
+
+.article-data {
+  color: #707070;
+  font-size: 0.875rem;
 }
 
 .subtitle {
@@ -24,10 +75,16 @@ h2 {
   margin: 0;
   font-weight: 700;
   font-size: 0.75rem;
+  letter-spacing: 0, 175rem;
+  text-transform: uppercase;
 }
 
-.light-weight {
+.light-weight-font {
   font-weight: 100;
+}
+
+.heavy-weight-font {
+  font-weight: 700;
 }
 
 /* /. TYPOGRAPHY */
@@ -138,7 +195,6 @@ main {
   display: flex;
   flex-direction: column;
   width: 75%;
-  color: grey;
 }
 
 main article {
@@ -177,6 +233,12 @@ main article {
 
 .article-recent-main {
   order: 2;
+  width: 75%;
+}
+
+.article-recent-secondary {
+  order: 1;
+  width: 25%;
 }
 
 aside.sidebar {
@@ -184,7 +246,6 @@ aside.sidebar {
   display: flex;
   flex-direction: column;
   width: 25%;
-  color: black;
 }
 
 .sidebar-widget {
