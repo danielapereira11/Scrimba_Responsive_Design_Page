@@ -66,6 +66,33 @@ nav a:focus {
   color: #717171;
 }
 
+.main-container {
+  border: 1px solid black;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-container .main-col {
+  border: 1px solid pink;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.main-container .side-col {
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.main-container .main-col div {
+  border: 1px solid blue;
+}
+.main-container .side-col div {
+  border: 1px solid red;
+}
+
 footer {
   background-color: #143774;
   margin: 0 auto;
