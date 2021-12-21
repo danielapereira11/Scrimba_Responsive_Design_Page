@@ -31,14 +31,15 @@ h1 {
 
 .widget-title {
   color: #143774;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.225rem;
 }
 
 .widget-recent-post-title {
   color: #143774;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -229,6 +230,11 @@ main {
   object-fit: cover;
 }
 
+.img-full {
+  max-height: 320px;
+  object-position: bottom;
+}
+
 .article-data {
   order: 2;
 }
@@ -312,6 +318,7 @@ aside.sidebar {
 
   aside.sidebar {
     width: 25%;
+    min-width: 170px;
   }
 
   .container-main {
