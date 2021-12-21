@@ -207,7 +207,6 @@ footer p {
 /* MAIN SECTION */
 
 .container-main {
-  border: 1px solid black;
   margin: 10em auto 12em;
   display: flex;
   flex-direction: row;
@@ -215,14 +214,12 @@ footer p {
 }
 
 main {
-  border: 1px solid pink;
   display: flex;
   flex-direction: column;
   width: 75%;
 }
 
 main article {
-  border: 1px solid blue;
 }
 
 .article-featured {
@@ -269,14 +266,12 @@ main article {
 }
 
 aside.sidebar {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   width: 25%;
 }
 
 .sidebar-widget {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
@@ -285,7 +280,6 @@ aside.sidebar {
 }
 
 .widget-recent-post {
-  border: 1px solid rgb(255, 136, 0);
   display: flex;
   flex-direction: column;
 }
