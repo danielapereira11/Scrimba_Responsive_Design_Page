@@ -112,9 +112,6 @@ header {
   background-color: #f8f8f8;
   padding: 2em 0;
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 1;
   text-align: center;
 }
@@ -122,11 +119,8 @@ header {
 footer {
   background-color: #143774;
   margin: 0 auto;
-  padding: 0;
+  padding: 2em 0;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   z-index: 1;
 }
 
@@ -293,22 +287,32 @@ aside.sidebar {
 @media (min-width: 675px) {
   header {
     text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
+
   nav ul {
     flex-direction: row;
   }
+
   nav li {
     margin-left: 2em;
   }
+
   main {
     width: 70%;
   }
+
   aside.sidebar {
     width: 25%;
   }
+
   .container-main {
     flex-direction: row;
+    margin-top: 11em;
   }
+
   .container-nav {
     flex-direction: row;
   }
