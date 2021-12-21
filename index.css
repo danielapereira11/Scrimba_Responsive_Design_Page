@@ -7,7 +7,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* TYPOGRAPHY */
@@ -221,6 +221,10 @@ main {
 
 .article-img {
   order: 1;
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover;
 }
 
 .article-data {
